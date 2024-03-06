@@ -1,0 +1,10 @@
+distancia_total = 0
+numero_escalas =  int(input("Digite los número de escalas: "))
+
+for ecalas in range(numero_escalas):
+    distancia =  float(input(f"Diga la distancia entra las escalas {ecalas+1} escala: "))
+    distancia_total += distancia
+
+print(f'distancia total recorrida: {distancia_total} km/h')
+
+print(f'numero de escalas realizadas: {numero_escalas}')
